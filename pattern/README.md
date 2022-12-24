@@ -20,4 +20,9 @@ Patterns mainly follow the basic structure of two loops, one outer and second in
 }</code>
 
 <h2>Programs</h2>
-• <a href="https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/NxNStarPattern.java">N*N square star pattern</a>
+
+<a href="https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/NxNStarPattern.java"><img src="https://takeuforward.org/wp-content/uploads/2022/08/P1.png" alt="NxNStarPattern.java"></a>
+
+<a href="https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/left-align-triangle.java"><img src="https://takeuforward.org/wp-content/uploads/2022/08/P2.png" alt="left-align-triangle.java"></a>
+
+<a href="https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/triangle-number-pattern1.java"><img src="https://takeuforward.org/wp-content/uploads/2022/08/P3.png" alt="triangle-number-pattern1.java"></a>
