@@ -22,3 +22,15 @@ Collections interface is part of greater collection framework. Apart from collec
 <li>LinkedList</li>
 <li>PriorityQueue</li>
 </ul>
+<h1>Map</h1>
+<ul>
+<li>HashMap</li>
+<li>TreeMap</li>
+<li>EnumMap*</li>
+<li>WeakHashMap*</li>
+<li>LinkedHashMap</li>
+</ul>
+<h1>Iterator</h1>
+<ul>
+<li>ListIterator</li>
+</ul>
