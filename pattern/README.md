@@ -35,10 +35,10 @@ for(int i = <>; i <= <>; i++){
 
 ```
 for(int i = 0; i < n; i++){
-    for(int j = 0; j < n; j++){
-        System.out.print("* ");
-    }
-    System.out.println();
+  for(int j = 0; j < n; j++){
+    System.out.print("* ");
+  }
+  System.out.println();
 }
 ```
 
@@ -54,11 +54,26 @@ for(int i = 0; i < n; i++){
 
 ```
 for(int i = 1; i <= n; i++){
-    for(int j = 1; j <= i; j++){
-        System.out.print("* ");
-    }
-    System.out.println();
+  for(int j = 1; j <= i; j++){
+    System.out.print("* ");
+  }
+  System.out.println();
 }
 ```
 
-[<img src="https://takeuforward.org/wp-content/uploads/2022/08/P3.png" alt="triangle-number-pattern1.java">](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/triangle-number-pattern1.java)
+### [triangle-number-pattern1](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/triangle-number-pattern1.java)
+```
+1
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+```
+```
+for(int i = 1; i <= n; i++){
+  for(int j = 1; j <= i; j++){
+    System.out.print(j+" ");
+  }
+  System.out.println();
+}
+```
