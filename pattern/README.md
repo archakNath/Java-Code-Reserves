@@ -77,3 +77,19 @@ for(int i = 1; i <= n; i++){
   System.out.println();
 }
 ```
+### [triangle-number-pattern2](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/triangle-number-pattern2.java)
+```
+1
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5
+```
+```
+for(int i = 1; i <= n; i++){
+  for(int j = 1; j <= i; j++){
+    System.out.print(i+" ");
+  }
+  System.out.println();
+}
+```
