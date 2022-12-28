@@ -225,3 +225,132 @@ for(int i = n-1; i >= 1; i--){
   System.out.println();
 }
 ```
+### [binary-pattern](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/binary-pattern.java)
+```
+1 
+0 1 
+1 0 1
+0 1 0 1 
+1 0 1 0 1
+```
+```
+for(int i = 1; i <= n; i++){
+  for(int j = i; j >= 1; j--){
+    System.out.print(j%2+" ");
+  }
+  System.out.println();
+}
+```
+### [rift-number-pattern](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/rift-number-pattern.java)
+```
+1                 1
+1 2             2 1
+1 2 3         3 2 1
+1 2 3 4     4 3 2 1
+1 2 3 4 5 5 4 3 2 1
+```
+```
+for(int i = 1; i <= n; i++){
+  for(int j = 1; j <= i; j++){
+    System.out.print(j+" ");
+  }
+  
+  for(int k = 10; k >= 2*i+1;k--){
+      System.out.print("  ");
+  }
+  
+  for(int s = i; s >= 1; s--){
+      System.out.print(s+" ");
+  }
+  System.out.println("");
+}
+```
+### [counter-number-pattern](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/counter-number-pattern.java)
+```
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15
+```
+```
+int count = 1; 
+for(int i = 1; i <= n; i++){
+    for(int j = 1; j <= i; j++){
+        System.out.print(count+" ");
+        count++;
+    }
+    System.out.println();
+}
+```
+### [inverted-alphabet-pattern](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/inverted-alphabet-pattern.java)
+```
+ABCDE
+ABCD
+ABC
+AB
+A
+```
+```
+for(int i = 64+n; i >= 65; i--){
+  for(int j = 65; j <= i; j++){
+      System.out.print((char)j);
+  }
+  System.out.println();
+}
+```
+### [alphabet-pattern1](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/alphabet-pattern1.java)
+```
+A
+BB
+CCC
+DDDD
+EEEEE
+```
+```
+for(int i = 65; i <= 65+n-1; i++){
+  for(int j = 65; j <= i; j++){
+      System.out.print((char)i);
+  }
+  System.out.println();
+}
+```
+### [alphabet-pyramid](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/alphabet-pyramid.java)
+```
+   A
+  ABA
+ ABCBA
+ABCDCBA
+```
+```
+for(int i = 65; i <= 65+n-1; i++){
+  for(int j = n-i+64; j >= 1; j--){
+      System.out.print(" ");
+  }
+  
+  for(int j = 65; j <= i; j++){
+      System.out.print((char)j);
+  }
+  
+  for(int j = i-1; j >= 65; j--){
+      System.out.print((char)j);
+  }
+  System.out.println();
+}
+```
+### [alphabet-pattern2](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/alphabet-pattern2.java)
+```
+E
+E D
+E D C
+E D C B
+E D C B A
+```
+```
+for(int i = 64+n; i >= 65; i--){
+  for(int j = 64+n; j >= i; j--){
+      System.out.print((char)j+" ");
+  }
+  System.out.println();
+}
+```
