@@ -23,10 +23,42 @@ for(int i = <>; i <= <>; i++){
 }
 ```
 
-### Programs
+### [n*n star pattern](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/NxNStarPattern.java)
+```
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+```
 
-[<img src="https://takeuforward.org/wp-content/uploads/2022/08/P1.png" alt="NxNStarPattern.java">](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/NxNStarPattern.java)
 
-[<img src="https://takeuforward.org/wp-content/uploads/2022/08/P2.png" alt="left-align-triangle.java">](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/left-align-triangle.java)
+```
+for(int i = 0; i < n; i++){
+    for(int j = 0; j < n; j++){
+        System.out.print("* ");
+    }
+    System.out.println();
+}
+```
+
+### [left aligned star pattern](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/left-align-triangle.java)
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+```
+
+
+```
+for(int i = 1; i <= n; i++){
+    for(int j = 1; j <= i; j++){
+        System.out.print("* ");
+    }
+    System.out.println();
+}
+```
 
 [<img src="https://takeuforward.org/wp-content/uploads/2022/08/P3.png" alt="triangle-number-pattern1.java">](https://github.com/archakNath/Java-Code-Reserves/blob/main/pattern/src/triangle-number-pattern1.java)
